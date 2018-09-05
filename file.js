@@ -1,5 +1,5 @@
 
-var colors=["Hello","Dear Recruiter","Thank You","For","Visiting My Profile", "I'll let you","Explore About Me","Gaurav Raina","end"];
+var colors=["Hello","Dear Visitor","Thank You","For","Visiting My Profile", "I'll let you","Explore About Me","Gaurav Raina","end"];
 var i=0;
 var interval=setInterval(Animation,666);
 
