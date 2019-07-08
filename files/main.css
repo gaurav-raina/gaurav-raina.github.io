@@ -1,4 +1,5 @@
 :root{
+    scroll-behavior: smooth;
     --textColor:white;
     --mainBg:darkgrey;
 }
@@ -37,4 +38,3 @@ img{
   transform: scale(2);
   cursor: zoom-out
 }
-
