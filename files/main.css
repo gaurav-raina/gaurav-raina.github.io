@@ -4,6 +4,10 @@
     --mainBg:darkgrey;
 }
 
+body{
+  text-align: center;
+}
+
 #header{
     background:var(--mainBg);
     color:var(--textColor);
