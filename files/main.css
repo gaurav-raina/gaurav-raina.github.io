@@ -1,3 +1,40 @@
 :root{
-  scroll-behavior: smooth;          
+    --textColor:white;
+    --mainBg:darkgrey;
 }
+
+#header{
+    background:var(--mainBg);
+    color:var(--textColor);
+    text-align: center;
+}
+
+#qual{
+    background:rgb(66, 45, 121);
+    color: rgb(222, 229, 235);
+}
+
+#proj{
+background:rgb(222, 222, 240);
+color:darkblue;    
+font-weight: bold;
+}
+img{
+  width: 90%;
+}
+
+.click-zoom input[type=checkbox] {
+  display: none
+}
+
+.click-zoom img {
+  margin: 10px;
+  transition: transform 0.25s ease;
+  cursor: zoom-in
+}
+
+.click-zoom input[type=checkbox]:checked~img {
+  transform: scale(2);
+  cursor: zoom-out
+}
+
